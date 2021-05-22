@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ArroganterServer">
+    <output-path>$PROJECT_DIR$/out/artifacts/ArroganterServer</output-path>
+    <root id="archive" name="ArroganterServer.jar">
+      <element id="module-output" name="ArroganterServer" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/resources/plugin.yml" />
+    </root>
+  </artifact>
+</component>

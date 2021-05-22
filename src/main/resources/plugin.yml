@@ -1,0 +1,25 @@
+name: ArroganterServer
+version: 1.0.0
+main: de.jul1o.arroganterserver.Main
+authors: [Jul1o, Funboyy]
+
+commands:
+  gm:
+  hilfe:
+  spawn:
+  fly:
+  news:
+  playerinfo:
+  ping:
+  build:
+  world:
+    aliases:
+      - worlds
+      - map
+      - maps
+  create:
+    aliases:
+      - generate
+  delete:
+    aliases:
+      - remove

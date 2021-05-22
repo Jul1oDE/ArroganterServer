@@ -1,0 +1,34 @@
+news:
+  - "§b» §7Neue Tabliste §ahinzugefügt§7!"
+  - "§b» §7Neuer Command: §a/build"
+  - "§b» §7Bedwars Testserver §ahinzugefügt§7!"
+
+tablist:
+  header: '&8&m-------------&r&8[ &bArroganteCrew&7.&bde&8 ]&m-------------'
+  footer: '&7/&ehilfe &8« &6Nützliche Befehle &8» &7/&enews\n&8&m-------------&r&8[ &bArroganteCrew&7.&bde&8 ]&m-------------'
+
+teams:
+  Admin:
+    prefix: "&8[&4Admin&8] &4"
+    suffix: "&r"
+    priority: "01"
+    permission: "tablist.admin"
+    default: false
+  Clan:
+    prefix: "&8[&bClan&8] &b"
+    suffix: "&r"
+    priority: "02"
+    permission: "tablist.clan"
+    default: false
+  Kyudo:
+    prefix: "&3"
+    suffix: "&r"
+    priority: "03"
+    permission: "tablist.kyudo"
+    default: false
+  default:
+    prefix: "&6"
+    suffix: "&r"
+    priority: "04"
+    permission: ""
+    default: true
