@@ -10,8 +10,7 @@ commands:
   fly:
   news:
   playerinfo:
-    alias:
-      - pi
+    alias: [pi]
   ping:
   build:
   world:

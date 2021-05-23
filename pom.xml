@@ -19,11 +19,6 @@
                 <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
             </repository>
 
-        <repository>
-            <id>BungeeCord-repo</id>
-            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-        </repository>
-
     </repositories>
 
     <dependencies>
@@ -32,13 +27,6 @@
             <artifactId>paperspigot-api</artifactId>
             <version>1.8.8-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>net.md-5</groupId>
-            <artifactId>bungeecord-api</artifactId>
-            <version>1.7-SNAPSHOT</version>
-            <scope>compile</scope>
         </dependency>
 
         <dependency>
